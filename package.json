@@ -1,0 +1,28 @@
+{
+  "name": "motogym-track-editor",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "echo \"start\"",
+    "dev": "node esbuild.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demansn/motogym-track-editor.git"
+  },
+  "author": "demansn",
+  "bugs": {
+    "url": "https://github.com/demansn/motogym-track-editor/issues"
+  },
+  "homepage": "https://github.com/demansn/motogym-track-editor#readme",
+  "dependencies": {
+    "esbuild": "0.17.7",
+    "pixi.js": "^7.1.2"
+  },
+  "devDependencies": {
+    "esbuild-dev-server": "^0.3.0",
+    "eslint": "^8.34.0"
+  }
+}
